@@ -1,0 +1,21 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "lambda-first",
+        "RoleId": "AROAZTCK6T5MOU6XFAS3J",
+        "Arn": "arn:aws:iam::659434676056:role/lambda-first",
+        "CreateDate": "2021-07-14T01:32:13+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        }
+    }
+}
